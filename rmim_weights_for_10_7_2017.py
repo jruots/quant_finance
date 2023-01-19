@@ -9,7 +9,7 @@ from cmath import sqrt
 
 # import data and assign feature names
 
-data = "C:/Users/Joni/Google Drive/Osaketutkimus/Mallit/Risk-managed momentum/Volatility scaling_python_test_2.csv"
+data = "folder_path/Volatility scaling_python_test_2.csv"
 names = ["Date", "Neo Industrial", "Herantis Pharma", "Componenta", "Zeeland Family", "Aspocomp", "Finnair", "Cleantech Invest", "Talenom", "QPR Software", "Soprano", "Etteplan", "Honkarakenne", "Nixu", "Poyry"]
 dataset = pandas.read_csv(data, sep=";", names=names)
 
